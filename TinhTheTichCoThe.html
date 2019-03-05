@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>tính thể tích cơ thể</title>
+</head>
+<body>
+<script>
+    let a = parseInt(prompt('cân nặng'));
+    let b = parseInt(prompt('chiều cao'));
+    let BMI = a/(b*b);
+    if (BMI < 18) {
+        document.write('thiếu cân nặng');
+    }else if (BMI < 25) {
+        document.write('đủ cân nặng');
+    }else if (BMI < 30) {
+        document.write('thừa cân nặng');
+    }else {
+        document.write('mập');
+    }
+</script>
+</body>
+</html>
